@@ -1,0 +1,44 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+    <LangVersion>9.0</LangVersion>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\00.Framework\Project.Framework\Project.Framework.csproj" />
+    <ProjectReference Include="..\..\01.Core\Project.Core.AutoMapper\Project.Core.AutoMapper.csproj" />
+    <ProjectReference Include="..\..\01.Core\Project.Core.CommandServices\Project.Core.CommandServices.csproj" />
+    <ProjectReference Include="..\..\01.Core\Project.Core.Contracts\Project.Core.Contracts.csproj" />
+    <ProjectReference Include="..\..\01.Core\Project.Core.Domain\Project.Core.Domain.csproj" />
+    <ProjectReference Include="..\..\01.Core\Project.Core.Infrastructures\Project.Core.Infrastructures.csproj" />
+    <ProjectReference Include="..\..\01.Core\Project.Core.QueryServices\Project.Core.QueryServices.csproj" />
+    <ProjectReference Include="..\..\01.Core\Project.Core.Resources\Project.Core.Resources.csproj" />
+    <ProjectReference Include="..\..\01.Core\Project.Core.ViewModels\Project.Core.ViewModels.csproj" />
+    <ProjectReference Include="..\..\02.Infrastructures\Project.Infrastructures.Data.SqlServer\Project.Infrastructures.Data.SqlServer.csproj" />
+    <ProjectReference Include="..\Project.Endpoints.ConsoleApp\Project.Endpoints.ConsoleApp.csproj" />
+  </ItemGroup>
+
+
+  <ItemGroup>
+    <PackageReference Include="MicroElements.Swashbuckle.FluentValidation" Version="5.1.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.NewtonsoftJson" Version="5.0.7" />
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="5.0.7" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.Versioning" Version="5.0.0" />
+    <PackageReference Include="Autofac.Extensions.DependencyInjection" Version="7.1.0" />
+
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.1.4" />
+    <PackageReference Include="Swashbuckle.AspNetCore.Annotations" Version="6.1.4" />
+    <PackageReference Include="Swashbuckle.AspNetCore.Filters" Version="7.0.2" />
+    <PackageReference Include="Swashbuckle.AspNetCore.Newtonsoft" Version="6.1.4" />
+    <PackageReference Include="Swashbuckle.AspNetCore.ReDoc" Version="6.1.4" />
+
+    <PackageReference Include="NLog.Web.AspNetCore" Version="4.10.0" />
+    <PackageReference Include="Sentry.NLog" Version="3.8.2" />
+    <PackageReference Include="ElmahCore" Version="2.0.6" />
+    <PackageReference Include="ElmahCore.Sql" Version="2.0.6" />
+    <PackageReference Include="AutoMapper" Version="10.1.1" />
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="8.1.1" />
+  </ItemGroup>
+
+</Project>

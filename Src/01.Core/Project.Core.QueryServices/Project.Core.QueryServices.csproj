@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+    <LangVersion>9.0</LangVersion>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\00.Framework\Project.Framework\Project.Framework.csproj" />
+    <ProjectReference Include="..\Project.Core.Contracts\Project.Core.Contracts.csproj" />
+    <ProjectReference Include="..\Project.Core.Domain\Project.Core.Domain.csproj" />
+    <ProjectReference Include="..\Project.Core.ViewModels\Project.Core.ViewModels.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="10.1.1" />
+    <PackageReference Include="Microsoft.AspNetCore.Identity" Version="2.2.0" />
+  </ItemGroup>
+
+</Project>

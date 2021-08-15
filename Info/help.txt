@@ -1,0 +1,5 @@
+﻿Singleton (یگانه)
+Scoped ( محدود شده )
+Transient (گذرا)
+
+

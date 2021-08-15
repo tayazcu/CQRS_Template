@@ -1,0 +1,108 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Project.Endpoints.UseCaseSuperAdmin</name>
+    </assembly>
+    <members>
+        <member name="M:Project.Endpoints.UseCaseSuperAdmin.Common.Controller.v1.PanelController.Token(Project.Core.ViewModels.Users.Query.LoginVM)">
+            <summary>
+            for login with swagger
+            </summary>
+            <param name="model"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Project.Endpoints.UseCaseSuperAdmin.Users.Controller.v1.ClaimController.GetSystemClaims">
+            <summary>
+            Get all claims inside system
+            </summary>
+        </member>
+        <member name="M:Project.Endpoints.UseCaseSuperAdmin.Users.Controller.v1.ClaimController.GetAllUserClaims(System.String)">
+            <summary>
+            Get all user claims 
+            </summary>
+        </member>
+        <member name="M:Project.Endpoints.UseCaseSuperAdmin.Users.Controller.v1.ClaimController.Add(Project.Core.ViewModels.Users.Command.UserClaimToAddVM)">
+            <summary>
+            add claim to user
+            </summary>
+            <param name="model">model</param>
+            <returns>result</returns>
+        </member>
+        <member name="M:Project.Endpoints.UseCaseSuperAdmin.Users.Controller.v1.ClaimController.Remove(Project.Core.ViewModels.Users.Command.RemoveClaimFromUserVM)">
+            <summary>
+            remove claim from user
+            </summary>
+            <param name="model">model</param>
+            <remarks>If not set Claim, all user claim will be deleted</remarks>
+        </member>
+        <member name="M:Project.Endpoints.UseCaseSuperAdmin.Users.Controller.v1.RoleController.GetSystemRoles">
+            <summary>
+            Get all roles inside system
+            </summary>
+        </member>
+        <member name="M:Project.Endpoints.UseCaseSuperAdmin.Users.Controller.v1.RoleController.GetAllUserRole(System.String)">
+            <summary>
+            Get all user role 
+            </summary>
+        </member>
+        <member name="M:Project.Endpoints.UseCaseSuperAdmin.Users.Controller.v1.RoleController.Add(Project.Core.ViewModels.Users.Command.UserRoleToAddVM)">
+            <summary>
+            add role to user
+            </summary>
+            <param name="model">model</param>
+            <returns>result</returns>
+        </member>
+        <member name="M:Project.Endpoints.UseCaseSuperAdmin.Users.Controller.v1.RoleController.Remove(Project.Core.ViewModels.Users.Command.RemoveRoleFromUserVM)">
+            <summary>
+            remove role from user
+            </summary>
+            <param name="model">model</param>
+            <remarks>If not set RoleName, all user roles will be deleted</remarks>
+        </member>
+        <member name="M:Project.Endpoints.UseCaseSuperAdmin.Users.Controller.v1.RoleController.ChangeStatus(Project.Core.ViewModels.Users.Command.UserRoleStatusToEditVM)">
+            <summary>
+            change status user role  
+            </summary>
+            <param name="model">model</param>
+        </member>
+        <member name="M:Project.Endpoints.UseCaseSuperAdmin.Users.Controller.v1.UsersController.Get(System.String)">
+            <summary>
+            Get User
+            </summary>
+            <param name="userId"> userId </param>
+            <returns>user information</returns>
+            <remarks>
+            get one user access by userId
+            </remarks> 
+        </member>
+        <member name="M:Project.Endpoints.UseCaseSuperAdmin.Users.Controller.v1.UsersController.GetAll">
+            <summary>
+            Get all user
+            </summary>
+            <returns>users information</returns>
+            <remarks>
+            get all user 
+            </remarks> 
+        </member>
+        <member name="M:Project.Endpoints.UseCaseSuperAdmin.Users.Controller.v1.UsersController.Add(Project.Core.ViewModels.Users.Command.UserToAddVM)">
+            <summary>
+            add user
+            </summary>
+            <param name="model">user informations</param>
+            <returns>result</returns>
+            <remarks>
+            add a user 
+            </remarks>
+        </member>
+        <member name="M:Project.Endpoints.UseCaseSuperAdmin.Users.Controller.v1.UsersController.Edit(Project.Core.ViewModels.Users.Command.UserToEditVM)">
+            <summary>
+            edit user
+            </summary>
+            <param name="model">user informations</param>
+            <returns>result</returns>
+            <remarks>
+            edit a user 
+            </remarks>
+        </member>
+    </members>
+</doc>

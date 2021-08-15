@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+    <LangVersion>9.0</LangVersion>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\00.Framework\Project.Framework\Project.Framework.csproj" />
+    <ProjectReference Include="..\Project.Core.Infrastructures\Project.Core.Infrastructures.csproj" />
+    <ProjectReference Include="..\Project.Core.Resources\Project.Core.Resources.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="6.0.0-preview.5.21301.9" />
+    <PackageReference Include="Microsoft.Extensions.Identity.Stores" Version="6.0.0-preview.5.21301.17" />
+  </ItemGroup>
+  
+</Project>

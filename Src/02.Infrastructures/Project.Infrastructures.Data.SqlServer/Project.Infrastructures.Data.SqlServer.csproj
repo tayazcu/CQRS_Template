@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+    <LangVersion>9.0</LangVersion>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\00.Framework\Project.Framework\Project.Framework.csproj" />
+    <ProjectReference Include="..\..\01.Core\Project.Core.Contracts\Project.Core.Contracts.csproj" />
+    <ProjectReference Include="..\..\01.Core\Project.Core.Domain\Project.Core.Domain.csproj" />
+    <ProjectReference Include="..\..\01.Core\Project.Core.Resources\Project.Core.Resources.csproj" />
+    <ProjectReference Include="..\..\01.Core\Project.Core.ViewModels\Project.Core.ViewModels.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="6.0.0-preview.5.21301.17" />
+  </ItemGroup>
+
+</Project>

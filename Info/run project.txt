@@ -1,0 +1,29 @@
+####################################### -connection strings and databases- #########################################################
+##  migration for one database ,When both databases are exactly the same :														  ##
+##	  1-Add-Migration init -Context WriteContext -OutputDir "Migrations/Write" -Verbose											  ##
+##	  2-Update-Database -Context WriteContext -Verbose																			  ##
+##  migration for one database ,When both databases are separate, one for reading and one for writing :							  ##
+##	  write																														  ##
+##		 1-Add-Migration init -Context WriteContext -OutputDir "Migrations/Write"												  ##
+##		 2-Update-Database -Context WriteContext																				  ##
+##	  Read																														  ##
+##		 1-Add-Migration init -Context ReadContext -OutputDir "Migrations/Read"													  ##
+##		 2-Update-Database -Context ReadContext																					  ##
+##  add elmah databse :																										      ##
+##	  1- Refer to the Elmah file																								  ##
+##	  2- activate or deactivate elmah																						      ##
+##		 -To activate the elmah, you must change the ActivateElmah in file appsettings.[EnviromentName].json value to true		  ##
+##		 -To deactivate the elmah, you must change the ActivateElmah in file appsettings.[EnviromentName].json value to false     ##
+##	  3-Show errors at url : https://localhost:5001/elmah-errors/errors														      ##
+####################################################################################################################################
+
+############################################################ a #####################################################################
+##	                                                                                                                        	  ##
+##                                                                                                                                ##
+##	                                                                                                                        	  ##
+##	                                                                                                                              ##
+##	                                                                                                                        	  ##
+##	                                                                                                                        	  ##
+####################################################################################################################################
+
+	

@@ -1,0 +1,258 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AddFailure" xml:space="preserve">
+    <value>ثبت {0} ناموفق بود.</value>
+  </data>
+  <data name="AddSuccess" xml:space="preserve">
+    <value>ثبت {0} با موفقیت انجام شد.</value>
+  </data>
+  <data name="AuthenticateFailed" xml:space="preserve">
+    <value>احراز هویت انجام نشد</value>
+  </data>
+  <data name="AuthenticateFailure" xml:space="preserve">
+    <value>احراز هویت با شکست مواجه شد</value>
+  </data>
+  <data name="BadRequest" xml:space="preserve">
+    <value>پارامتر های ارسالی معتبر نیستند, لطفا در وارد کردن اطلاعات دقت کنید</value>
+  </data>
+  <data name="Between2And250" xml:space="preserve">
+    <value>باید بین 2 تا 250 کاراکتر باشد</value>
+  </data>
+  <data name="Between7And256" xml:space="preserve">
+    <value>باید بین 7 تا 256 کاراکتر باشد</value>
+  </data>
+  <data name="Between7And400" xml:space="preserve">
+    <value>باید بین 7 تا 400 کاراکتر باشد</value>
+  </data>
+  <data name="ChangeStatusFailure" xml:space="preserve">
+    <value>تغییر وضعیت {0} ناموفق بود.</value>
+  </data>
+  <data name="ChangeStatusSuccess" xml:space="preserve">
+    <value>تغییر وضعیت {0} با موفقیت انجام شد.</value>
+  </data>
+  <data name="Claim" xml:space="preserve">
+    <value>ادعا</value>
+  </data>
+  <data name="ClaimIsInvalid" xml:space="preserve">
+    <value>ادعا {0} نامعتبر است</value>
+  </data>
+  <data name="ClaimType" xml:space="preserve">
+    <value>نوع ادعا</value>
+  </data>
+  <data name="ClaimValue" xml:space="preserve">
+    <value>نام ادعا</value>
+  </data>
+  <data name="Description" xml:space="preserve">
+    <value>توضیحات</value>
+  </data>
+  <data name="EditFailure" xml:space="preserve">
+    <value>به روز رسانی {0} ناموفق بود.</value>
+  </data>
+  <data name="EditSuccess" xml:space="preserve">
+    <value>به روز رسانی {0} با موفقیت انجام شد.</value>
+  </data>
+  <data name="Email" xml:space="preserve">
+    <value>ایمیل</value>
+  </data>
+  <data name="EnglishName" xml:space="preserve">
+    <value>نام انگلیسی ادعا</value>
+  </data>
+  <data name="FirstName" xml:space="preserve">
+    <value>نام</value>
+  </data>
+  <data name="GrantType" xml:space="preserve">
+    <value>نوع اعطا (grant-type)</value>
+  </data>
+  <data name="IsDuplicate" xml:space="preserve">
+    <value>{0} تکراری است</value>
+  </data>
+  <data name="IsExist" xml:space="preserve">
+    <value>{0} وجود دارد</value>
+  </data>
+  <data name="IsRequired" xml:space="preserve">
+    <value>الزامی است {0}</value>
+  </data>
+  <data name="LastName" xml:space="preserve">
+    <value>نام خانوادگی</value>
+  </data>
+  <data name="MustBe8Characters" xml:space="preserve">
+    <value>باید 8 کاراکتر باشد</value>
+  </data>
+  <data name="MustUseOAuthFlow" xml:space="preserve">
+    <value>برای ورود به سایت باید از OAuth flow استفاده کنید</value>
+  </data>
+  <data name="NotFound" xml:space="preserve">
+    <value>{0} یافت نشد</value>
+  </data>
+  <data name="Password" xml:space="preserve">
+    <value>کلمه عبور</value>
+  </data>
+  <data name="PersianName" xml:space="preserve">
+    <value>نام فارسی ادعا</value>
+  </data>
+  <data name="RegisterDate" xml:space="preserve">
+    <value>تاریخ ثبت نام</value>
+  </data>
+  <data name="RemoveFailure" xml:space="preserve">
+    <value>حذف {0} ناموفق بود.</value>
+  </data>
+  <data name="RemoveSuccess" xml:space="preserve">
+    <value>حذف {0} با موفقیت انجام شد.</value>
+  </data>
+  <data name="Required" xml:space="preserve">
+    <value>الزامی است</value>
+  </data>
+  <data name="Role" xml:space="preserve">
+    <value>نقش</value>
+  </data>
+  <data name="RoleIsInvalid" xml:space="preserve">
+    <value>نقش {0} نامعتبر است</value>
+  </data>
+  <data name="Status" xml:space="preserve">
+    <value>وضعیت</value>
+  </data>
+  <data name="TokenNoClaims" xml:space="preserve">
+    <value>توکن دارای کلیم نیست</value>
+  </data>
+  <data name="TokenNoSecurityStamp" xml:space="preserve">
+    <value>این توکن سکوریتی استمپ ندارد</value>
+  </data>
+  <data name="TokenSecurityStampNotValid" xml:space="preserve">
+    <value>سکوریتی استمپ ، توکن معتبر نیست</value>
+  </data>
+  <data name="Unauthorized" xml:space="preserve">
+    <value>خطای احراز هویت</value>
+  </data>
+  <data name="UnauthorizedToAccessResource" xml:space="preserve">
+    <value>شما مجاز به دسترسی به این منبع نیستید</value>
+  </data>
+  <data name="User" xml:space="preserve">
+    <value>کاربر</value>
+  </data>
+  <data name="UserId" xml:space="preserve">
+    <value>ایدی صحیح برای کاربر الزامی است</value>
+  </data>
+  <data name="UserName" xml:space="preserve">
+    <value>نام کاربری</value>
+  </data>
+  <data name="UserOrPasswordNotCorrect" xml:space="preserve">
+    <value>نام کاربری یا رمز عبور اشتباه است</value>
+  </data>
+</root>

@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+    <LangVersion>9.0</LangVersion>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\02.Infrastructures\Project.Infrastructures.Data.SqlServer\Project.Infrastructures.Data.SqlServer.csproj" />
+    <ProjectReference Include="..\Project.Core.Contracts\Project.Core.Contracts.csproj" />
+    <ProjectReference Include="..\Project.Core.Domain\Project.Core.Domain.csproj" />
+    <ProjectReference Include="..\Project.Core.Infrastructures\Project.Core.Infrastructures.csproj" />
+    <ProjectReference Include="..\Project.Core.Resources\Project.Core.Resources.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="10.1.1" />
+  </ItemGroup>
+
+</Project>

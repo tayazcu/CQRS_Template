@@ -1,0 +1,476 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Project.Core.ViewModels</name>
+    </assembly>
+    <members>
+        <member name="P:Project.Core.ViewModels.Users.Command.RemoveClaimFromUserVM.UserId">
+            <summary>
+            ایدی کاربر
+            </summary>
+        </member>
+        <member name="P:Project.Core.ViewModels.Users.Command.RemoveClaimFromUserVM.Claim">
+            <summary>
+            ادعا 
+            </summary>
+        </member>
+        <member name="P:Project.Core.ViewModels.Users.Command.RemoveRoleFromUserVM.UserId">
+            <summary>
+            ایدی کاربر
+            </summary>
+        </member>
+        <member name="P:Project.Core.ViewModels.Users.Command.RemoveRoleFromUserVM.RoleName">
+            <summary>
+             نقش
+            </summary>
+        </member>
+        <member name="P:Project.Core.ViewModels.Users.Command.UserClaimToAddVM.UserId">
+            <summary>
+            ایدی کاربر
+            </summary>
+        </member>
+        <member name="P:Project.Core.ViewModels.Users.Command.UserClaimToAddVM.ClaimValue">
+            <summary>
+            مقدار ادعا
+            </summary>
+        </member>
+        <member name="P:Project.Core.ViewModels.Users.Command.UserRoleStatusToEditVM.UserId">
+            <summary>
+            ایدی کاربر
+            </summary>
+        </member>
+        <member name="P:Project.Core.ViewModels.Users.Command.UserRoleStatusToEditVM.RoleName">
+            <summary>
+            نقش
+            </summary>
+        </member>
+        <member name="P:Project.Core.ViewModels.Users.Command.UserRoleStatusToEditVM.Status">
+            <summary>
+            وضعیت
+            </summary>
+        </member>
+        <member name="P:Project.Core.ViewModels.Users.Command.UserRoleToAddVM.UserId">
+            <summary>
+            ایدی کاربر
+            </summary>
+        </member>
+        <member name="P:Project.Core.ViewModels.Users.Command.UserRoleToAddVM.RoleName">
+            <summary>
+            نقش
+            </summary>
+        </member>
+        <member name="P:Project.Core.ViewModels.Users.Command.UserRoleToAddVM.Status">
+            <summary>
+            وضعیت
+            </summary>
+        </member>
+        <member name="P:Project.Core.ViewModels.Users.Command.UserToAddVM.UserName">
+            <summary>
+            نام کاربری
+            </summary>
+        </member>
+        <member name="P:Project.Core.ViewModels.Users.Command.UserToAddVM.Password">
+            <summary>
+            کلمه عبور
+            </summary>
+        </member>
+        <member name="P:Project.Core.ViewModels.Users.Command.UserToAddVM.UserType">
+            <summary>
+            نوع کاربر
+            </summary>
+        </member>
+        <member name="P:Project.Core.ViewModels.Users.Command.UserToAddVM.PersianFirstName">
+            <summary>
+            نام فارسی
+            </summary>
+        </member>
+        <member name="P:Project.Core.ViewModels.Users.Command.UserToAddVM.PersianLastName">
+            <summary>
+            نام خانوادگی فارسی
+            </summary>
+        </member>
+        <member name="P:Project.Core.ViewModels.Users.Command.UserToAddVM.EnglishFirstName">
+            <summary>
+            نام انگلیسی
+            </summary>
+        </member>
+        <member name="P:Project.Core.ViewModels.Users.Command.UserToAddVM.EnglishLastName">
+            <summary>
+            نام خانوادگی انگلیسی
+            </summary>
+        </member>
+        <member name="P:Project.Core.ViewModels.Users.Command.UserToAddVM.PersianFatherName">
+            <summary>
+            نام پدر فارسی
+            </summary>
+        </member>
+        <member name="P:Project.Core.ViewModels.Users.Command.UserToAddVM.EnglishFatherName">
+            <summary>
+            نام پدر انگلیسی
+            </summary>
+        </member>
+        <member name="P:Project.Core.ViewModels.Users.Command.UserToAddVM.DateOfBirth">
+            <summary>
+            تاریخ تولد
+            </summary>
+        </member>
+        <member name="P:Project.Core.ViewModels.Users.Command.UserToAddVM.NationalCode">
+            <summary>
+            کد ملی
+            </summary>
+        </member>
+        <member name="P:Project.Core.ViewModels.Users.Command.UserToAddVM.PersianPlaceOfBirth">
+            <summary>
+            محل تولد فارسی
+            </summary>
+        </member>
+        <member name="P:Project.Core.ViewModels.Users.Command.UserToAddVM.EnglishPlaceOfBirth">
+            <summary>
+            محل تولد انگلیسی
+            </summary>
+        </member>
+        <member name="P:Project.Core.ViewModels.Users.Command.UserToAddVM.Gender">
+            <summary>
+            جنسیت
+            m=Male , f = Famale
+            </summary>
+        </member>
+        <member name="P:Project.Core.ViewModels.Users.Command.UserToAddVM.ProfileImage">
+            <summary>
+            تصویر پروفایل
+            </summary>
+        </member>
+        <member name="P:Project.Core.ViewModels.Users.Command.UserToAddVM.DateOfPassportIssuance">
+            <summary>
+            تاریخ صدور گذرنامه
+            </summary>
+        </member>
+        <member name="P:Project.Core.ViewModels.Users.Command.UserToAddVM.PassportExpirationDate">
+            <summary>
+            تاریخ انقضای گذرنامه
+            </summary>
+        </member>
+        <member name="P:Project.Core.ViewModels.Users.Command.UserToAddVM.PassportNumber">
+            <summary>
+            شماره گذرنامه
+            </summary>
+        </member>
+        <member name="P:Project.Core.ViewModels.Users.Command.UserToAddVM.PassportImage">
+            <summary>
+            تصویر گذرنامه
+            </summary>
+        </member>
+        <member name="P:Project.Core.ViewModels.Users.Command.UserToAddVM.VisaImage">
+            <summary>
+            تصویر ویزا
+            </summary>
+        </member>
+        <member name="P:Project.Core.ViewModels.Users.Command.UserToAddVM.PhoneNumber">
+            <summary>
+            تلفن
+            </summary>
+        </member>
+        <member name="P:Project.Core.ViewModels.Users.Command.UserToAddVM.Mobile">
+            <summary>
+            موبایل
+            </summary>
+        </member>
+        <member name="P:Project.Core.ViewModels.Users.Command.UserToAddVM.Address">
+            <summary>
+            آدرس
+            </summary>
+        </member>
+        <member name="P:Project.Core.ViewModels.Users.Command.UserToAddVM.Email">
+            <summary>
+            پست الکترونیک
+            </summary>
+        </member>
+        <member name="P:Project.Core.ViewModels.Users.Command.UserToAddVM.WhatsAppNumber">
+            <summary>
+            شماره واتساپ
+            </summary>
+        </member>
+        <member name="P:Project.Core.ViewModels.Users.Command.UserToAddVM.PostalCode">
+            <summary>
+            کد پستی
+            </summary>
+        </member>
+        <member name="P:Project.Core.ViewModels.Users.Command.UserToAddVM.ReferralUserId">
+            <summary>
+            ایدی کاربر معرف
+            </summary>
+        </member>
+        <member name="P:Project.Core.ViewModels.Users.Command.UserToEditVM.UserId">
+            <summary>
+            شناسه کاربر
+            </summary>
+        </member>
+        <member name="P:Project.Core.ViewModels.Users.Command.UserToEditVM.PersianFirstName">
+            <summary>
+            نام فارسی
+            </summary>
+        </member>
+        <member name="P:Project.Core.ViewModels.Users.Command.UserToEditVM.PersianLastName">
+            <summary>
+            نام خانوادگی فارسی
+            </summary>
+        </member>
+        <member name="P:Project.Core.ViewModels.Users.Command.UserToEditVM.EnglishFirstName">
+            <summary>
+            نام انگلیسی
+            </summary>
+        </member>
+        <member name="P:Project.Core.ViewModels.Users.Command.UserToEditVM.EnglishLastName">
+            <summary>
+            نام خانوادگی انگلیسی
+            </summary>
+        </member>
+        <member name="P:Project.Core.ViewModels.Users.Command.UserToEditVM.PersianFatherName">
+            <summary>
+            نام پدر فارسی
+            </summary>
+        </member>
+        <member name="P:Project.Core.ViewModels.Users.Command.UserToEditVM.EnglishFatherName">
+            <summary>
+            نام پدر انگلیسی
+            </summary>
+        </member>
+        <member name="P:Project.Core.ViewModels.Users.Command.UserToEditVM.DateOfBirth">
+            <summary>
+            تاریخ تولد
+            </summary>
+        </member>
+        <member name="P:Project.Core.ViewModels.Users.Command.UserToEditVM.NationalCode">
+            <summary>
+            کد ملی
+            </summary>
+        </member>
+        <member name="P:Project.Core.ViewModels.Users.Command.UserToEditVM.PersianPlaceOfBirth">
+            <summary>
+            محل تولد فارسی
+            </summary>
+        </member>
+        <member name="P:Project.Core.ViewModels.Users.Command.UserToEditVM.EnglishPlaceOfBirth">
+            <summary>
+            محل تولد انگلیسی
+            </summary>
+        </member>
+        <member name="P:Project.Core.ViewModels.Users.Command.UserToEditVM.Gender">
+            <summary>
+            جنسیت
+            m=Male , f = Famale
+            </summary>
+        </member>
+        <member name="P:Project.Core.ViewModels.Users.Command.UserToEditVM.ProfileImage">
+            <summary>
+            تصویر پروفایل
+            </summary>
+        </member>
+        <member name="P:Project.Core.ViewModels.Users.Command.UserToEditVM.DateOfPassportIssuance">
+            <summary>
+            تاریخ صدور گذرنامه
+            </summary>
+        </member>
+        <member name="P:Project.Core.ViewModels.Users.Command.UserToEditVM.PassportExpirationDate">
+            <summary>
+            تاریخ انقضای گذرنامه
+            </summary>
+        </member>
+        <member name="P:Project.Core.ViewModels.Users.Command.UserToEditVM.PassportNumber">
+            <summary>
+            شماره گذرنامه
+            </summary>
+        </member>
+        <member name="P:Project.Core.ViewModels.Users.Command.UserToEditVM.PassportImage">
+            <summary>
+            تصویر گذرنامه
+            </summary>
+        </member>
+        <member name="P:Project.Core.ViewModels.Users.Command.UserToEditVM.VisaImage">
+            <summary>
+            تصویر ویزا
+            </summary>
+        </member>
+        <member name="P:Project.Core.ViewModels.Users.Command.UserToEditVM.PhoneNumber">
+            <summary>
+            تلفن
+            </summary>
+        </member>
+        <member name="P:Project.Core.ViewModels.Users.Command.UserToEditVM.Mobile">
+            <summary>
+            موبایل
+            </summary>
+        </member>
+        <member name="P:Project.Core.ViewModels.Users.Command.UserToEditVM.Address">
+            <summary>
+            آدرس
+            </summary>
+        </member>
+        <member name="P:Project.Core.ViewModels.Users.Command.UserToEditVM.Email">
+            <summary>
+            پست الکترونیک
+            </summary>
+        </member>
+        <member name="P:Project.Core.ViewModels.Users.Command.UserToEditVM.WhatsAppNumber">
+            <summary>
+            شماره واتساپ
+            </summary>
+        </member>
+        <member name="P:Project.Core.ViewModels.Users.Command.UserToEditVM.PostalCode">
+            <summary>
+            کد پستی
+            </summary>
+        </member>
+        <member name="P:Project.Core.ViewModels.Users.Command.UserToEditVM.ReferralUserId">
+            <summary>
+            ایدی کاربر معرف
+            </summary>
+        </member>
+        <member name="P:Project.Core.ViewModels.Users.Query.UserRoleToShowVM.Role">
+            <summary>
+            نام نقش
+            </summary>
+        </member>
+        <member name="P:Project.Core.ViewModels.Users.Query.UserRoleToShowVM.Status">
+            <summary>
+            وضعیت نقش
+            </summary>
+        </member>
+        <member name="P:Project.Core.ViewModels.Users.Query.UserToShowVM.UserId">
+            <summary>
+            شناسه
+            </summary>
+        </member>
+        <member name="P:Project.Core.ViewModels.Users.Query.UserToShowVM.UserName">
+            <summary>
+            نام کاربری
+            </summary>
+        </member>
+        <member name="P:Project.Core.ViewModels.Users.Query.UserToShowVM.RegisterDate">
+            <summary>
+            تاریخ ثبت نام
+            </summary>
+        </member>
+        <member name="P:Project.Core.ViewModels.Users.Query.UserToShowVM.UserType">
+            <summary>
+            نوع کاربر
+            </summary>
+        </member>
+        <member name="P:Project.Core.ViewModels.Users.Query.UserToShowVM.PersianFirstName">
+            <summary>
+            نام فارسی
+            </summary>
+        </member>
+        <member name="P:Project.Core.ViewModels.Users.Query.UserToShowVM.PersianLastName">
+            <summary>
+            نام خانوادگی فارسی
+            </summary>
+        </member>
+        <member name="P:Project.Core.ViewModels.Users.Query.UserToShowVM.EnglishFirstName">
+            <summary>
+            نام انگلیسی
+            </summary>
+        </member>
+        <member name="P:Project.Core.ViewModels.Users.Query.UserToShowVM.EnglishLastName">
+            <summary>
+            نام خانوادگی انگلیسی
+            </summary>
+        </member>
+        <member name="P:Project.Core.ViewModels.Users.Query.UserToShowVM.PersianFatherName">
+            <summary>
+            نام پدر فارسی
+            </summary>
+        </member>
+        <member name="P:Project.Core.ViewModels.Users.Query.UserToShowVM.EnglishFatherName">
+            <summary>
+            نام پدر انگلیسی
+            </summary>
+        </member>
+        <member name="P:Project.Core.ViewModels.Users.Query.UserToShowVM.DateOfBirth">
+            <summary>
+            تاریخ تولد
+            </summary>
+        </member>
+        <member name="P:Project.Core.ViewModels.Users.Query.UserToShowVM.NationalCode">
+            <summary>
+            کد ملی
+            </summary>
+        </member>
+        <member name="P:Project.Core.ViewModels.Users.Query.UserToShowVM.PersianPlaceOfBirth">
+            <summary>
+            محل تولد فارسی
+            </summary>
+        </member>
+        <member name="P:Project.Core.ViewModels.Users.Query.UserToShowVM.EnglishPlaceOfBirth">
+            <summary>
+            محل تولد انگلیسی
+            </summary>
+        </member>
+        <member name="P:Project.Core.ViewModels.Users.Query.UserToShowVM.Gender">
+            <summary>
+            جنسیت
+            m=Male , f = Famale
+            </summary>
+        </member>
+        <member name="P:Project.Core.ViewModels.Users.Query.UserToShowVM.ProfileImage">
+            <summary>
+            تصویر پروفایل
+            </summary>
+        </member>
+        <member name="P:Project.Core.ViewModels.Users.Query.UserToShowVM.DateOfPassportIssuance">
+            <summary>
+            تاریخ صدور گذرنامه
+            </summary>
+        </member>
+        <member name="P:Project.Core.ViewModels.Users.Query.UserToShowVM.PassportExpirationDate">
+            <summary>
+            تاریخ انقضای گذرنامه
+            </summary>
+        </member>
+        <member name="P:Project.Core.ViewModels.Users.Query.UserToShowVM.PassportNumber">
+            <summary>
+            شماره گذرنامه
+            </summary>
+        </member>
+        <member name="P:Project.Core.ViewModels.Users.Query.UserToShowVM.PassportImage">
+            <summary>
+            تصویر گذرنامه
+            </summary>
+        </member>
+        <member name="P:Project.Core.ViewModels.Users.Query.UserToShowVM.VisaImage">
+            <summary>
+            تصویر ویزا
+            </summary>
+        </member>
+        <member name="P:Project.Core.ViewModels.Users.Query.UserToShowVM.PhoneNumber">
+            <summary>
+            تلفن
+            </summary>
+        </member>
+        <member name="P:Project.Core.ViewModels.Users.Query.UserToShowVM.Mobile">
+            <summary>
+            موبایل
+            </summary>
+        </member>
+        <member name="P:Project.Core.ViewModels.Users.Query.UserToShowVM.Address">
+            <summary>
+            آدرس
+            </summary>
+        </member>
+        <member name="P:Project.Core.ViewModels.Users.Query.UserToShowVM.Email">
+            <summary>
+            پست الکترونیک
+            </summary>
+        </member>
+        <member name="P:Project.Core.ViewModels.Users.Query.UserToShowVM.WhatsAppNumber">
+            <summary>
+            شماره واتساپ
+            </summary>
+        </member>
+        <member name="P:Project.Core.ViewModels.Users.Query.UserToShowVM.PostalCode">
+            <summary>
+            کد پستی
+            </summary>
+        </member>
+    </members>
+</doc>
